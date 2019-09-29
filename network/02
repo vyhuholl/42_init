@@ -1,0 +1,4 @@
+# a) Identify and display broadcast address
+ifconfig en0 | grep "inet " | cut -d " " -f 6
+# b) Identify and display all IP adresses which are part of the same subnet
+arp -a | sed "s/.*(\(.*\)).*/\1/"

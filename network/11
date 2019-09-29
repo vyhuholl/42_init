@@ -1,0 +1,10 @@
+# Use the output of the previous command to find the name and IP address of the device that makes the link between you (local network) and the outside world
+
+# Solution:
+# First 3 lines of the output:
+# 1  192.168.20.1 (192.168.20.1)  1.250 ms  1.029 ms  0.995 ms
+# 2  192.168.2.9 (192.168.2.9)  0.259 ms  0.328 ms  0.274 ms
+# 3  83-69-219-253.in-addr.mastertelecom.ru (83.69.219.253)  3.215 ms  2.613 ms  3.639 ms
+# 3rd line is our public IP, 2nd is the NAT (Network Address Translation, a mechanism that translates our local IP (line 1) to public IP)
+
+# Answer: 192.168.2.9

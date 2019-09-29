@@ -1,0 +1,12 @@
+# Make the intra.42.fr address reroute to 46.19.122.85
+
+# Solution:
+# /etc/hosts should be modified like this:
+
+# 192.168.50.10        cdn.42.fr
+# 46.19.122.85         cdn.intra.42.fr
+# 127.0.0.1       localhost
+# 255.255.255.255 broadcasthost
+# ::1             localhost
+
+# Obviously, I can't do thus, cuz no sudo rights.

@@ -1,0 +1,8 @@
+# Get the complete path of the file that contains the IP address of the DNS server you’re using
+
+# Solution: On UNIX, IP address is located at /etc/resolv.conf (proof, for example, here: https://www.opennet.ru/man.shtml?topic=resolv.conf).
+# However, when executing "ls -l /etc/resolv.conf" in the terminal, the result is:
+# "lrwxr-xr-x  1 root  wheel  22 Aug  4  2018 /etc/resolv.conf -> ../var/run/resolv.conf".
+# So, /etc/resolv.conf is a symbolic link and the real path is ../var/run/resolv.conf.
+
+# Answer: ../var/run/resolv.conf"

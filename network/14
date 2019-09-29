@@ -1,0 +1,9 @@
+# What file contains the local DNS entries?
+
+# Answer: /etc/hosts
+
+# Solution: https://www.opennet.ru/man.shtml?topic=hosts
+# Checking for symlinks:
+# ls -l /etc/hosts
+# -rw-r--r--  1 root  wheel  150 Feb 19  2019 /etc/hosts
+# No symlinks, just regular file!

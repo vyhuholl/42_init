@@ -1,0 +1,3 @@
+# Thanks to the previous question and the reverse DNS find the name of your host
+at-a1.21-school.ru.
+# ifconfig en0 | grep "inet " | cut -d " " -f 2 | nslookup | grep "name" | cut -d " " -f 3
