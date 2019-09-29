@@ -1,0 +1,9 @@
+# Write a script which delete an ACTIVE user on the VM.
+read USER
+if ["$(cat /etc/passwd | grep $USER)" != "$NULL"]; then
+	sudo passwd -l $USER
+	if ["$(pgrep -u $USER)" != "$NULL"]; then
+		sudo kill -9 "$(pgrep -u $USER)"
+	fi
+	sudo userdel -r $USER
+fi
