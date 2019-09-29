@@ -1,0 +1,3 @@
+# Explain how connect yourself as new user. (With graphic session and ssh session)
+# Graphic session: connect to VM, then put your username and password when asked.
+# SSH session: ssh username@ip, then put your password.

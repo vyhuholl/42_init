@@ -1,0 +1,3 @@
+# What file has to be modified to make it permanent?
+# Answer: /etc/hostname
+# Proof: for example, here: https://debian-handbook.info/browse/stable/sect.hostname-name-service.html

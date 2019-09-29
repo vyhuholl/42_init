@@ -1,0 +1,5 @@
+# In what file can you find the installed version of your Debian?
+# Answer: /etc/debian_version
+# Solution:
+# sghezn@debian:~$ cat /etc/debian_version
+# 10.1
